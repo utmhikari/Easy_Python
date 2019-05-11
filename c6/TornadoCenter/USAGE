@@ -1,0 +1,19 @@
+Valid commands are follows:
+help
+    Show this help message
+server start [-p <port>] [-n <num_proc>]
+    Start Tornado TCPServer
+server stop
+    Stop Tornado TCPServer
+server params
+    Show the params of TCPServer
+server status
+    Show the status of TCPServer
+client start
+    Start Tornado TCPClient
+client stop
+    Stop Tornado TCPClient
+client status
+    Show the status of TCPClient
+exit
+    Exit the TornadoCenter
